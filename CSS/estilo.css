@@ -1,0 +1,334 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Este alinha o h3 do login.php */
+#campo{
+    background-color: rgb(0, 166, 255) !important;
+    color: white;
+    font-family: arial;
+    margin-left: 100px;
+}
+
+
+
+/* index.php */ 
+
+.menu{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+
+}
+
+.menu{
+list-style:none;
+border:1px solid #c0c0c0;
+float:left;
+}
+/*
+.box{
+    background-color: rgb(0, 166, 255) !important;
+    color: #fff; 
+    margin: 10px;
+    text-align: center;
+}
+*/
+
+
+/* idex.php */
+.h1, h1 {
+    margin-right: 910px;
+    margin-top: 0px;
+    color: #fff;
+    font-size: 150%; /*o tamanho de fonte padrão está definido na regra de css do elemento html como 20px*/
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+/* index.php */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../IMG/16.jpg); /*explore outras cores e transparências*/
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+/* Parametros - form_pesq.php */
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../IMG/17.jpg); /*explore outras cores e transparências*/
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+/* index.php */
+.menu{
+    transform: translate(5%, 170%);
+    list-style:none;
+    border:1px solid #c0c0c0;
+    transform: translate(2%, 50%);
+    }
+
+ /* index.pho */
+.menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+    }   
+
+/* index.php */
+.menu li a{color:#f61f1f; 
+    text-decoration:none;
+    padding:5px 10px; 
+    display:block;}
+/* index.php */
+.menu li a:hover{
+background:#333;
+color:#fff;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+
+/* index.php */
+.menu li:hover ul, .menu li.over ul{
+    display:block;}
+/* index.php */
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    display:none;
+}
+
+/*index.pho */
+.menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+    }
+/* index.php*/
+.rest, p
+    {
+    position: absolute;
+     /* 1º lateral, 2º baixo e encima */
+    transform: translate(160%, -82%);
+    color: rgb(232, 20, 20);
+    font-size: 40px;
+    }
+    
+/* idex.php */
+.bem-vindo div{
+
+    width: 400px;
+    transform: translate(-30%, -200%);
+}
+
+/* index.php*/
+.talheres{
+    color: rgb(232, 20, 20);
+     /* 1º lateral, 2º baixo e encima */
+    transform: translate(740%,-73%);
+    font-size: 30px;
+}
+
+/*index.pho */
+.hero-text-box {
+    position: absolute;
+    width: 900px;
+    top: 50%;
+    left: 50%;
+     /* 1º lateral, 2º baixo e encima */
+    transform: translate(-51%, -37%);
+}
+
+/* index.php */
+h2 {
+    margin-top: 0;
+    color: #fff;
+    font-size: 240%; /*o tamanho de fonte padrão está definido na regra de css do elemento html como 20px*/
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+/* login.php */
+#pag{ 
+    transform: translate(70%, 80%);
+
+    /*margin-left: calc(70% - 25px - 0px); Funciona para posicionar este elemento*/
+    color: #fff;
+    font-size: 38px;
+}
+
+/* parametros - form_pesq.php */
+
+
+fieldset{
+    display: flex;
+    /* 1º lateral, 2º baixo e encima */
+    text-align: center;
+    width: 500px;
+    color: rgba(255,255,255, 10);
+    
+}
+/* Imagem temperatua3 no login.php */
+#temp{
+
+    height: 180px;
+    margin-top: -200px;
+    /*height: 30%;*/
+    /* 1º lateral, 2º baixo e encima */
+    transform: translate(-70.5%, -07%);
+    /*background-size: cover;*/
+    
+    /* Isso centralizará a imagem na horizontal e na vertical sempre.*/
+}
+
+ /* img prata do login.php */
+#prata{
+    margin: auto;
+    height: 200px;
+    width: 107%; /* Vai ajustando a largura do elemento */
+    margin-left: -100px;
+}
+
+/* Aqui cuidar a lógica posso modificar 2 arquivos juntos 
+div#form-body h1, div#form-body-cad h1{ } */
+
+/* Quality de login.php */
+#pg{
+
+margin-top: -200px;
+
+/*height: 30%;*/
+/* 1º lateral, 2º baixo e encima */
+text-align: center;
+color: crimson;
+font-size: 100px;
+opacity: 0.5;
+
+}
+
+/* login.php */
+.email{
+    transform: translate(200%, 130%);
+}
+
+/* login.php */
+.senha{
+    transform: translate(100%, 300%);
+}
+
+
+.rosa{
+
+    width: 300px;
+}
+
+input{
+    outline: none;
+    display: block;
+    height: 35px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white;/* borda preta*/
+    font-size: 16pt;
+    padding: 10px 20px;
+    color: 	rgb(248, 228, 228);
+    /*background-color: rgba(255, 255, 255, 0.07);/* para deixar transparente */
+
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+input[type=submit]{
+    background-color: #FF0066;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    margin-top: 160px;
+}
+
+/* css do placeholder */
+::-webkit-input-placeholder{
+    color: #e3cfcf;
+}
+
+/* No arquivo function.php */
+.oi {
+    color: #fff;
+    padding:  40px 15px;
+    text-align: center;
+}
+
+
+/* Estilização do h3 do index.php */
+
+
+:root{
+    /* Vou por variáveis:
+    -- corFundo vai receber a cor #fff */
+    --cor-fundo : rgb(229, 144, 24);
+    --cor-hover : rgb(180, 145, 118);
+    --cor-primaria : rgb(232,253,241);
+}
+
+
+
+.mainmenubtn {
+    background-color: blue;
+    /*background-color: skyblue;*/
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: rgb(255, 0, 72);
+    }
+
+    /* Div pai */
+.dropdown {
+    margin-bottom: 50px;
+    display: inline-block;
+    margin-right: 1150px;
+    /* ESTE NÃO FUNCIONA lateral, baixo e acima 
+    transform: translate(5%, 60%);*/
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(0, 166, 255) !important;
+    min-width: 310px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+
+
+
+
+    /* pesquisar_por_nome */
+    
+
+    

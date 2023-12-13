@@ -1,0 +1,168 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    color: #fff;
+    padding:  40px 15px;
+    text-align: center;
+}
+
+ 
+
+
+
+
+
+#pag{
+    color: #fff;
+    
+}
+
+fieldset{
+    transform: translate(130%, 1%);
+    width: 400px;
+    /*margin: 150px auto 0px auto; /* Centralizando */
+    
+}
+
+
+
+/* Aqui cuidar a lógica posso modificar 2 arquivos juntos 
+div#form-body h1, div#form-body-cad h1{ } */
+
+   
+input{
+    outline: none;
+    display: block;
+    height: 25px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white;/* borda preta*/
+    font-size: 16pt;
+    padding: 10px 20px;
+    color: 	white;
+    background-color: rgba(255, 255, 255, 0.01);/* para deixar transparente */
+    
+}
+ 
+    
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+a:hover{
+    text-decoration: underline;
+}
+input[type=submit]{
+    background-color: #FF0066;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    /* Aumenta ou diminui a opacidade. */
+    filter: opacity(50%);
+    
+    
+}
+
+
+/* css do placeholder funciona dos 2 modos
+::placeholder{
+    color: red;
+ }
+ */
+
+/* arquivo login.php */
+::-webkit-input-placeholder{
+    color: rgb(252, 252, 252);
+}
+
+/* No arquivo function.php */
+.oi {
+    color: #fff;
+    padding:  40px 15px;
+    text-align: center;
+}
+
+#compara {
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+}
+
+.email{
+    filter: opacity(60%);
+    
+}
+ .senha{
+    filter: opacity(60%);
+ }
+
+ /* Estilização do menu e sub menu. */
+ :root{
+    /* Vou por variáveis:
+    -- corFundo vai receber a cor #fff */
+    --cor-fundo : rgb(24, 202, 229);
+    --cor-hover : rgb(118,180,145);
+    --cor-primaria : rgb(232,253,241);
+}
+
+
+/* Classe dp-menu terá o elemento "ul". */
+.dp-menu ul {
+    /* Remove os circulos de marcação de lista */
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Não esquecer de passar a classe antes para que não de problema de repetição de nomes, por isso tem que ser específico */
+.dp-menu ul{
+    /* Estou passando uma variável que vai pegar a cor de fundo */
+    background-color: var(--cor-fundo);
+}
+
+/* Primeiro menu. */
+.dp-menu ul li{
+    /* para deixar os elementos tudo em uma única linha */
+    display: inline-flex;
+    position: relative; 
+}
+
+/* Aqui vai servir para os 2, para o menu e o sub menu. */
+.dp-menu ul li a{
+    /* Ao chamar a variável "var(--cor-primaria)" eu utilizo as cores setadas no topo. */
+   color: var(--cor-primaria);
+   /* retiro o sublinhado. */
+   text-decoration: none;
+   /* Colocar um padding de 10px. */
+   padding: 20px;
+}
+.dp-menu ul li a:hover{
+    /* Ao chamar a variável "var(--cor-primaria)" eu utilizo as cores setadas no topo. */
+   background-color: var(--cor-hover);
+   
+}
+
+/* Agora vou trabalhar com o sub menu que é o segundo "menu". */
+.dp-menu ul ul{
+    display: none;
+    left: 0; /* Vai ficar alinhado ao seu pai ao clicar em produtos. */
+    position: absolute;
+}
+/* Quando passar o mouser e tiver 1 item ul dentro o display será block. */
+.dp-menu ul li:hover ul{
+    display: block;
+
+}
+/* Largura do sub menu */
+.dp-menu ul ul {
+    width: 150px;
+}
+.dp-menu ul ul li a{
+    display: block;
+}

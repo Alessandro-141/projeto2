@@ -1,0 +1,206 @@
+/* Este vai atribuir a todos os arquivos pertencentes ao style.css, atribuiu ao laco_foreach.php */
+body{
+    background-color: rgb(0, 106, 255) !important;
+    color: white;
+    font-family: arial;
+}
+
+/* arquivo controle_comidas_temp1.php */
+#temp1, body{
+    background-color: rgb(113, 186, 225) !important; /* cuidar deste modo pega os campos da tabela */
+    color: rgb(24, 1, 13) !important;
+    font-family: arial;
+}
+
+/* arquivo controle_comidas_temp1.php */
+/* arquivo controle_comidas.php */
+#minhaTabela {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+table,th, td{
+    text-align: left;
+    padding: 8px;
+    background-color: brown;
+
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+/* Arquivo controle_comidas.php */
+/* Arquivo teste-data_olhar_formatacao.php */
+p-3 mb-2 bg-primary text-white{
+    background-color: rgb(0, 166, 255) !important;
+    color: white;
+    font-family: arial;
+}
+/* Arquivo teste-data_olhar_formatacao.php */
+body{
+    background-color: rgb(0, 166, 255) !important;
+    color: white;
+    font-family: arial;
+}
+
+/* arquivo controle_comidas_temp1.php */
+
+
+.cad div{
+    align-items: center;
+    border-radius: 15px;
+}
+/* do arquivo index.php */
+
+
+.edit{
+    text-align: center;
+}
+
+.rad {
+    border-radius: 10px;
+}
+
+.btn3{
+    position:absolute; 
+    background-color: brown;
+    transform: translate(0%, 50%);
+    
+}
+.btn3 a{
+    color: #fff;
+}
+.btn2{
+    position:absolute; 
+    top:50%;
+    left:50%;
+    transform: translate(90%, -1490%);
+    background-color: rgb(0, 255, 4);  
+    color: #fff;
+    
+
+}
+/* parametros / controle_datas.php */
+.btn1{
+    position:absolute; 
+    transform: translate(770%, -3200%);
+
+}
+.btn1 a{
+    color: #fff;
+    
+}
+.btn4{
+    position:absolute; 
+    transform: translate(750%, -2600%);
+
+}
+.btn5 a{
+    color: #fff;
+    
+}
+.btn5{
+    position:absolute; 
+    transform: translate(750%, -2500%);
+
+}
+/* Parametros controle_data_saida.php */
+.btn6 a{
+    color: #fff;
+    
+}
+.btn6{
+    position:absolute; 
+    transform: translate(780%, -3950%);
+
+}
+/* Controle_parametros.php */
+.btn7{
+    position:absolute; 
+    /* lateral / baixo/ encima */
+    transform: translate(770%, -3400%);
+
+}
+.btn7 a{
+    color: #fff;
+}
+/* Controle_in_natura.php */
+.btn8{
+    position:absolute; 
+    /* lateral / baixo/ encima */
+    transform: translate(792%, -2400%);
+
+}
+.btn8 a{
+    color: #fff;
+}
+/* Controle_vacuo.php */
+.btn9{
+    position:absolute; 
+    /* lateral / baixo/ encima */
+    transform: translate(779%, -2510%);
+
+}
+.btn9 a{
+    color: #fff;
+}
+
+/* Parametros - testedata.php */
+.btn10{
+    position:absolute; 
+    /* lateral / baixo/ encima */
+    transform: translate(759%, -5800%);
+
+}
+.btn10 a{
+    color: #fff;
+}
+/* verifica_validade - controle_data_n.php */
+.btn16{
+    position:absolute; 
+    /* lateral / baixo/ encima */
+    transform: translate(790%, -2300%);
+
+}
+.btn16 a{
+    color: #fff;
+}
+/* verifica_validade - controle_data_p.php */
+.btn17{
+    position:absolute; 
+    /* lateral / baixo/ encima */
+    transform: translate(790%, -2300%);
+
+}
+.btn17 a{
+    color: #fff;
+}
+.btn18{
+    position:absolute; 
+    /* lateral / baixo/ encima */
+    transform: translate(790%, -2300%);
+
+}
+.btn18 a{
+    color: #fff;
+}
+.btn19{
+    position:absolute; 
+    /* lateral / baixo/ encima */
+    transform: translate(790%, -2300%);
+
+}
+.btn19 a{
+    color: #fff;
+}
+
+
+.btn4 a{
+    color: #fff;
+    
+}
+
